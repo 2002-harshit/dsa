@@ -1,0 +1,4 @@
+*.out
+test.cpp
+settings.json
+launch.json
