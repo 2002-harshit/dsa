@@ -43,5 +43,14 @@ public:
 
 int main()
 {
+    vector<int> arr = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+    for (auto &vec : (new Solution())->subsetsWithDup(arr))
+    {
+        for (int val : vec)
+        {
+            cout << val << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }
